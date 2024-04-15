@@ -14,7 +14,7 @@ public class MessageProducer : IMessageProducer
       UserName = "user",
       Password = "12345",
       VirtualHost = "/"
-    }
+    };
 
     var conn = factory.CreateConnection();
 
